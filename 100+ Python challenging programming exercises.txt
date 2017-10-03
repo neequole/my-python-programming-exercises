@@ -177,7 +177,7 @@ Level 2
 
 Question:
 Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j.
-Note: i=0,1.., X-1; j=0,1,¡­Y-1.
+Note: i=0,1.., X-1; j=0,1,ï¿½ï¿½Y-1.
 Example
 Suppose the following inputs are given to the program:
 3,5
@@ -225,7 +225,7 @@ print ','.join(items)
 Question 9
 Level 2
 
-Question£º
+Questionï¿½ï¿½
 Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
 Suppose the following input is supplied to the program:
 Hello world
@@ -425,7 +425,7 @@ Question:
 Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
 D 100
 W 200
-¡­
+ï¿½ï¿½
 D means deposit while W means withdrawal.
 Suppose the following input is supplied to the program:
 D 300
@@ -568,13 +568,13 @@ for i in reverse(100):
 Question 21
 Level 3
 
-Question£º
+Questionï¿½ï¿½
 A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following:
 UP 5
 DOWN 3
 LEFT 3
 RIGHT 2
-¡­
+ï¿½ï¿½
 The numbers after the direction are steps. Please write a program to compute the distance from current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
 Example:
 If the following tuples are given as input to the program:
@@ -724,7 +724,7 @@ print "%s name is %s" % (Person.name, nico.name)
 #----------------------------------------#
 
 #----------------------------------------#
-Question:
+Question 26:
 Define a function which can compute the sum of two numbers.
 
 Hints:
@@ -737,7 +737,7 @@ def SumFunction(number1, number2):
 print SumFunction(1,2)
 
 #----------------------------------------#
-Question:
+Question 27:
 Define a function that can convert a integer into a string and print it in console.
 
 Hints:
@@ -752,23 +752,9 @@ printValue(3)
 	
 
 #----------------------------------------#
-Question:
-Define a function that can convert a integer into a string and print it in console.
-
-Hints:
-
-Use str() to convert a number to string.
-
-Solution
-def printValue(n):
-	print str(n)
-
-printValue(3)
-
-#----------------------------------------#
 2.10
 
-Question:
+Question 28:
 Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.
 
 Hints:
@@ -786,7 +772,7 @@ printValue("3","4") #7
 2.10
 
 
-Question:
+Question 29:
 Define a function that can accept two strings as input and concatenate them and then print it in console.
 
 Hints:
@@ -803,7 +789,7 @@ printValue("3","4") #34
 2.10
 
 
-Question:
+Question 30:
 Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print al l strings line by line.
 
 Hints:
@@ -830,7 +816,7 @@ printValue("one","three")
 #----------------------------------------#
 2.10
 
-Question:
+Question 31:
 Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".
 
 Hints:
@@ -851,7 +837,7 @@ checkValue(7)
 #----------------------------------------#
 2.10
 
-Question:
+Question 32:
 Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.
 
 Hints:
@@ -877,7 +863,7 @@ printDict()
 #----------------------------------------#
 2.10
 
-Question:
+Question 33:
 Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.
 
 Hints:
@@ -900,7 +886,7 @@ printDict()
 #----------------------------------------#
 2.10
 
-Question:
+Question 34:
 Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.
 
 Hints:
@@ -924,7 +910,7 @@ printDict()
 #----------------------------------------#
 2.10
 
-Question:
+Question 35:
 Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.
 
 Hints:
@@ -949,7 +935,7 @@ printDict()
 #----------------------------------------#
 2.10
 
-Question:
+Question 36:
 Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).
 
 Hints:
@@ -971,7 +957,7 @@ printList()
 #----------------------------------------#
 2.10
 
-Question:
+Question 37:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.
 
 Hints:
@@ -995,7 +981,7 @@ printList()
 #----------------------------------------#
 2.10
 
-Question:
+Question 38:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
 
 Hints:
@@ -1019,7 +1005,7 @@ printList()
 #----------------------------------------#
 2.10
 
-Question:
+Question 39:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
 
 Hints:
@@ -1043,7 +1029,7 @@ printList()
 #----------------------------------------#
 2.10
 
-Question:
+Question 40:
 Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). 
 
 Hints:
@@ -1067,7 +1053,7 @@ printTuple()
 #----------------------------------------#
 2.10
 
-Question:
+Question 41:
 With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. 
 
 Hints:
@@ -1085,7 +1071,7 @@ print tp2
 #----------------------------------------#
 2.10
 
-Question:
+Question 42:
 Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). 
 
 Hints:
@@ -1108,7 +1094,7 @@ print tp2
 #----------------------------------------#
 2.14
 
-Question:
+Question 43:
 Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
 
 Hints:
@@ -1127,7 +1113,7 @@ else:
 #----------------------------------------#
 3.4
 
-Question:
+Question 44:
 Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
 
 Hints:
@@ -1144,7 +1130,7 @@ print evenNumbers
 #----------------------------------------#
 3.4
 
-Question:
+Question 45:
 Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
 
 Hints:
@@ -1160,7 +1146,7 @@ print squaredNumbers
 #----------------------------------------#
 3.5
 
-Question:
+Question 46:
 Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
 
 Hints:
@@ -1180,7 +1166,7 @@ print evenNumbers
 #----------------------------------------#
 3.5
 
-Question:
+Question 47:
 Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
 
 Hints:
@@ -1196,7 +1182,7 @@ print evenNumbers
 #----------------------------------------#
 3.5
 
-Question:
+Question 48:
 Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
 
 Hints:
@@ -1214,7 +1200,7 @@ print squaredNumbers
 #----------------------------------------#
 7.2
 
-Question:
+Question 49:
 Define a class named American which has a static method called printNationality.
 
 Hints:
@@ -1238,7 +1224,7 @@ American.printNationality()
 
 7.2
 
-Question:
+Question 50:
 Define a class named American and its subclass NewYorker. 
 
 Hints:
@@ -1266,7 +1252,7 @@ print aNewYorker
 
 7.2
 
-Question:
+Question 51:
 Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. 
 
 Hints:
@@ -1294,6 +1280,7 @@ print aCircle.area()
 
 7.2
 
+Question 52:
 Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. 
 
 Hints:
@@ -1319,7 +1306,7 @@ print aRectangle.area()
 #----------------------------------------#
 
 7.2
-
+Question 53:
 Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
 
 Hints:
@@ -1355,7 +1342,7 @@ print aSquare.area()
 
 #----------------------------------------#
 
-
+Question 54:
 Please raise a RuntimeError exception.
 
 Hints:
@@ -1369,6 +1356,7 @@ raise RuntimeError('something wrong')
 
 
 #----------------------------------------#
+Question 55:
 Write a function to compute 5/0 and use try/except to catch the exceptions.
 
 Hints:
@@ -1391,6 +1379,7 @@ finally:
 
 
 #----------------------------------------#
+Question 56:
 Define a custom exception class which takes a string message as attribute.
 
 Hints:
@@ -1412,7 +1401,7 @@ class MyError(Exception):
 error = MyError("something wrong")
 
 #----------------------------------------#
-Question:
+Question 57:
 
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
 
@@ -1440,7 +1429,7 @@ print r2.group(1)
 
 
 #----------------------------------------#
-Question:
+Question 58:
 
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
 
@@ -1470,7 +1459,7 @@ print r2.group(2)
 
 
 #----------------------------------------#
-Question:
+Question 59:
 
 Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
 
@@ -1496,7 +1485,7 @@ print re.findall("\d+",s)
 
 
 #----------------------------------------#
-Question:
+Question 60:
 
 
 Print a unicode string "hello world".
