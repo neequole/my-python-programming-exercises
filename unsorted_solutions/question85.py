@@ -14,3 +14,12 @@ for s in subject:
     for v in verb:
         for o in obj:
             print(f'{s} {v} {o}')
+
+print('\n\nAnother solution\n\n')
+# Using itertools
+from itertools import product
+
+
+combinations = list(product(subject, verb, obj))
+for c in combinations:
+    print(' '.join(c))
